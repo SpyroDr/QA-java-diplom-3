@@ -6,9 +6,12 @@ public class User {
     private String password;
     private String name;
 
+
+
     public String getEmail() {
         return email;
     }
+
 
     public User setEmail(String email) {
         this.email = email;
@@ -32,4 +35,5 @@ public class User {
         this.name = name;
         return this;
     }
+
 }
